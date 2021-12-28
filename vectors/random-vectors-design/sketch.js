@@ -1,4 +1,4 @@
-let p
+let p;
 
 function setup() {
   createCanvas(400, 400);
@@ -10,7 +10,7 @@ function draw() {
   p = p5.Vector.random2D();
   p = p.mult(random(50,100));
   
-  stroke(255);
+  stroke(255, 50);
   strokeWeight(2);
   line(0, 0, p.x, p.y);
 }

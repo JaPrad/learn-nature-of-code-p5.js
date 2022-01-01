@@ -11,6 +11,6 @@ function draw() {
   p = p.mult(random(50,100));
   
   stroke(255, 50);
-  strokeWeight(2);
+  strokeWeight(4);
   line(0, 0, p.x, p.y);
 }
